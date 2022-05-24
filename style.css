@@ -1,0 +1,64 @@
+body {
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color:brown;
+}
+
+main {
+    display: flex;
+    
+    justify-content: center;
+    align-content: center;
+    
+}
+
+section {
+    margin-top: 250px;
+}
+
+.searchbox {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 600px;
+    height: 350px;
+    /* border: 1px solid black; */
+}
+
+#pokemonName {
+    border-radius: 5px;
+}
+
+#search {
+    border-radius: 5px;
+}
+
+#pokemonName {
+    width: 200px;
+    text-align: center;
+    
+    height: 19px;
+}
+
+button {
+    width: 25px;
+    height: 24px;
+    cursor: pointer;
+}
+
+button:active {
+    transform: translateY(4px);
+}
+
+.pokemonBox img {
+    width: 300px;
+    height: 300px;
+}
+
+.pokemonInfo {
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 800;
+}
